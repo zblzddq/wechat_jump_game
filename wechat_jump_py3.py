@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from PIL import Image
-
+###  test
 VERSION = "1.1.4"
 def pull_screenshot():
     os.system('adb shell screencap -p /sdcard/autojump.png')
